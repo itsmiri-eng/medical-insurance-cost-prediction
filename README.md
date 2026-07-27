@@ -7,6 +7,7 @@
 ![Data Science](https://img.shields.io/badge/Data-Science-purple)
 
 This project explores the use of machine learning to predict individual medical insurance costs from demographic and health-related attributes. The objective was to investigate how different neural network architectures and training configurations influence regression performance on structured healthcare data.
+![Correlation analysis](project_overview.png)
 
 ## Project Overview
 
