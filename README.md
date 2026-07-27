@@ -7,21 +7,28 @@
 ![Data Science](https://img.shields.io/badge/Data-Science-purple)
 
 This project explores the use of machine learning to predict individual medical insurance costs from demographic and health-related attributes. The objective was to investigate how different neural network architectures and training configurations influence regression performance on structured healthcare data.
+
+
 ![Correlation analysis](project_overview.png)
+
 
 ## Project Overview
 
-Medical insurance costs depend on several interacting factors, including age, BMI, smoking status, number of children, sex, and geographic region. This project applies supervised machine learning to learn these relationships and estimate insurance charges for previously unseen individuals.
+This project investigates the use of supervised machine learning for predicting individual medical insurance costs from demographic and health-related information.
 
-The project includes:
+Rather than training a single model, the project explored multiple deep learning regression architectures and training strategies to evaluate how model complexity, optimization algorithms, and hyperparameter selection affect predictive performance.
 
-- Data preprocessing
+The complete workflow included:
+
+- Data preprocessing and cleaning
 - Exploratory data analysis
 - Feature encoding
-- Model training
+- Correlation analysis
+- Neural network model design
 - Hyperparameter tuning
 - Cross-validation
-- Regression model evaluation
+- Model comparison
+- Regression performance evaluation
 
 ## Dataset
 
@@ -43,11 +50,13 @@ Target variable:
 ## Technologies
 
 - Python
-- TensorFlow / Keras
-- NumPy
+- TensorFlow
+- Keras
 - Pandas
-- Matplotlib
+- NumPy
 - Scikit-learn
+- Matplotlib
+- Seaborn
 - Jupyter Notebook
 
 ## Repository Structure
@@ -76,11 +85,12 @@ The final model was selected based on its predictive performance and generalizat
 
 ## Future Improvements
 
-- Compare additional regression algorithms
+- Compare deep learning models with traditional regression algorithms
 - Perform automated hyperparameter optimization
-- Improve feature engineering
-- Deploy the model as a web application
-
+- Investigate feature importance and explainability techniques
+- Develop an interactive web interface for insurance cost prediction
+- Evaluate additional healthcare datasets for improved generalization
+  
 ## Disclaimer
 
 This project was developed for educational purposes and should not be used for real-world insurance pricing or clinical decision-making.
